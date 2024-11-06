@@ -1,0 +1,158 @@
+/* Main container styling */
+.homepage {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+section{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 2rem;
+    background-color: #e0f3ff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #357ab7;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #4a90e2;
+    border: 2px solid #4a90e2;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #4a90e2;
+    color: white;
+}
+
+/* Features Section */
+.features {
+    padding: 10rem 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f5faff;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.feature-item {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 10rem 2rem;
+    text-align: center;
+    background-color: #d9ebff;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.testimonials p {
+    font-style: italic;
+    color: #666;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 10rem 2rem;
+    text-align: center;
+    background-color: #eef4ff;
+}
+
+.pricing h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.pricing-plan {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 150px;
+    background-color: #fafafa;
+    font-weight: 500;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem;
+    /* margin-top: 2rem; */
+}
+
+.footer-links a {
+    color: #cde5ff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    color: white;
+}
